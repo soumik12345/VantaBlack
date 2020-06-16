@@ -84,8 +84,8 @@ const BOOLEAN = {
 }
 
 
-const FilesBoard = new Array(BOARD_SQUARES_NUMBER);
-const RanksBoard = new Array(BOARD_SQUARES_NUMBER);
+var FilesBoard = new Array(BOARD_SQUARES_NUMBER);
+var RanksBoard = new Array(BOARD_SQUARES_NUMBER);
 
 
 function fileRank2Square(file, rank) {
