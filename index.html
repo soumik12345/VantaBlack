@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Engine</title>
+    <script type="text/javascript">
+        if (!window.console) {
+            console = {
+                log: function () {
+
+                }
+            };
+        }
+    </script>
+</head>
+<body>
+    <h1>
+        Chess Engine
+    </h1>
+
+    <div id="FenInDiv">
+        Forsyth-Edward Notation:
+        <input type="text" id="FenIn">
+        <button type="button" id="SetFen">Set Position</button>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/definitions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
