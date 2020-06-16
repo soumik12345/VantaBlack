@@ -1,8 +1,6 @@
 $(function () {
     init();
     console.log('Everything is Awesome');
-
-    initializeFRBoard();
 });
 
 function initializeFRBoard() {
@@ -42,4 +40,5 @@ function initializeFRBoard() {
 
 function init() {
     console.log('init() called');
+    initializeFRBoard();
 }
