@@ -83,6 +83,13 @@ const BOOLEAN = {
     TRUE: 1
 }
 
+// Castling Map
+const CASTLEBITS = {
+    WHITE_KING_SIDE: 1,     // 0001
+    WHITE_QUEEN_SIDE: 2,    // 0010
+    BLACK_KING_SIDE: 4,     // 0100
+    BLACK_QUEEN_SIDE: 8     // 1000
+}
 
 var FilesBoard = new Array(BOARD_SQUARES_NUMBER);
 var RanksBoard = new Array(BOARD_SQUARES_NUMBER);
