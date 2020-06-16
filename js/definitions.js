@@ -73,6 +73,7 @@ const SQUARES = {
     H8: 98,
     // Exceptions
     NO_SQUARE: 99,
+    // Padding
     OFF_BOARD: 100
 };
 
@@ -80,4 +81,13 @@ const SQUARES = {
 const BOOLEAN = {
     FALSE: 0,
     TRUE: 1
+}
+
+
+const FilesBoard = new Array(BOARD_SQUARES_NUMBER);
+const RanksBoard = new Array(BOARD_SQUARES_NUMBER);
+
+
+function fileRank2Square(file, rank) {
+    return file + 21 + rank * 10;
 }
